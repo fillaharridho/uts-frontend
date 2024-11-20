@@ -41,7 +41,7 @@ nav ul li a {
 /* Media Queries for Responsiveness */
 
 /* Tablet Screens (>= 768px) */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   header {
     padding: 0 15px;
   }
@@ -64,7 +64,7 @@ nav ul li a {
 }
 
 /* Mobile Screens (>= 480px) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   header {
     padding: 0 10px;
   }
@@ -87,7 +87,7 @@ nav ul li a {
 }
 
 /* Extra Small Screens (< 480px) */
-@media (max-width: 360px) {
+@media (max-width: 150px) {
   header {
     flex-direction: column;
     align-items: flex-start;
